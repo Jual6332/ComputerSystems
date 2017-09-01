@@ -1,0 +1,12 @@
+void mychoice_switch(int choice){
+    switch (choice){
+    case -10:
+        printf("You are being very negative!"); 
+        break;
+    case 0:
+        printf("The invention of zero was brilliant!");
+        break;
+    default:
+        printf("Meh!");
+    }
+}

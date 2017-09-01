@@ -1,0 +1,11 @@
+struct int_node {
+   int value;
+   struct int_node *next;
+};
+
+void print_int_list(struct int_node * ptr){
+    while (ptr != NULL){
+        printf("%d\n",ptr->value);
+        ptr = ptr->next;
+    }
+}

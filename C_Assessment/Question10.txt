@@ -1,0 +1,4 @@
+In first else
+0
+In second if 
+1

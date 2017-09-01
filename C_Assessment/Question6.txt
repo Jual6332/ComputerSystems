@@ -1,0 +1,5 @@
+void swap_int(int *x, int *y){
+    int value = *x;
+    *x = *y;
+    *y = value;
+}

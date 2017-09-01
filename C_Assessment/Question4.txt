@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+   while ( !feof(stdin) ) {
+       double fx;
+       int count = fscanf(stdin, "%lf", &fx);
+       if ( count != 1 ) break;
+       int ix = fx;
+       printf("%20d\n", ix);
+   }
+}

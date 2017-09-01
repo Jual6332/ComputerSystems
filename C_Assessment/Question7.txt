@@ -1,0 +1,7 @@
+Fill in the missing references in the examples below by dragging the appropriate operator in the region below to the blank spaces in the sample code:
+sample [‑>] data [.] value = 10;
+root [.] left = sample;
+root [.] left [‑>] left  = sample;
+root [.] right = &root;
+sample [‑>] right = root[.]left;
+root[.]left[‑>]data[.]value = 99

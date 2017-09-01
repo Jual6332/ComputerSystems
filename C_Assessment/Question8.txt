@@ -1,0 +1,1 @@
+The correct answer is: Decimal int, signed format → %d, Character → %c, Floating number, scientific format → %e, Pointer → %p, Decimal floating point number → %f, Hexidecimal int → %x, String → %s, Decimal int, unsigned format → %u
